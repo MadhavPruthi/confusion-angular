@@ -12,6 +12,7 @@
       <mat-card-title>{{ dish.name | uppercase }}</mat-card-title>
       <img src="{{ dish.image }}" mat-card-image />
       <mat-card-subtitle>{{ dish.description }}</mat-card-subtitle>
+      <button mat-button (click)="goBack()">BACK</button>
       <button mat-button>LIKE</button>
       <button mat-button>SHARE</button>
     </mat-card>
